@@ -1,25 +1,25 @@
 {
-    "name": "img2braille",
+    "name": "img2braille-web",
     "version": "1.0.1",
     "description": "Dynamically converts an image to braille (ASCII) art",
     "main": "app.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/5E7EN/Img2Braille.git"
+        "url": "git+https://github.com/piLeoni/img2braille-web.git"
     },
     "keywords": [
         "ascii",
         "braille",
         "art",
-        "image-conversion"
+        "image-conversion",
+        "web"
     ],
     "author": "5E7EN",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/5E7EN/Img2Braille/issues"
+        "url": "https://github.com/piLeoni/img2braille-web/issues"
     },
-    "homepage": "https://github.com/5E7EN/Img2Braille#readme",
+    "homepage": "https://github.com/piLeoni/img2braille-web#readme",
     "dependencies": {
-        "canvas": "^2.6.1"
     }
 }

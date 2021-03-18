@@ -1,7 +1,9 @@
-![npm](https://img.shields.io/npm/v/img2braille?style=for-the-badge)
-![NPM](https://img.shields.io/npm/l/img2braille?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/img2braille-web?style=for-the-badge)
+![NPM](https://img.shields.io/npm/l/img2braille-web?style=for-the-badge)
 
-# Img2Braille - Dank Edition
+# Img2Braille-web
+
+Forked from https://github.com/5E7EN/Img2Braille and modified to work in a web browser.
 
 JavaScript utility to generate braille (unicode) text from an image.
 

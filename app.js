@@ -1,4 +1,3 @@
-const { Image, createCanvas } = require('canvas');
 const { applyDithering } = require('./util/dithering');
 
 function getChar(current) {
@@ -24,9 +23,13 @@ function braillefy(imageURL = '', asciiWidth = 30, options = {}) {
     if (!options.colors) options.colors = { red: 1, green: 1, blue: 1 };
 
     return new Promise((resolve, reject) => {
-        const canvas = createCanvas();
-        const img = new Image();
 
+        // Here are the changes:
+        const canvas = document.createElement('canvas');
+        const img = new Image();
+        img.crossOrigin = "Anonymous";
+        //
+        
         img.onload = () => {
             let width = img.width;
             let height = img.height;
