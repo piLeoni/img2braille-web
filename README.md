@@ -12,7 +12,7 @@ JavaScript utility to generate braille (unicode) text from an image.
 You may install this package with npm using:
 
 ```
-npm install img2braille
+npm install img2braille-web
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ After importing the package into your project, a `braillefy` method will be acce
 ## Examples
 
 ```
-const { braillefy } = require('img2braille');
+const { braillefy } = require('img2braille-web');
 
 (async () => {
     const asciiOpts = {
